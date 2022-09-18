@@ -1,0 +1,51 @@
+/* adım adım uygulamalarla css */
+/* div{
+    color: red;
+} */
+
+div{
+    color: white;
+    background-color: red;
+    width: 200px;
+    height: 150px;
+    font-family: sans-serif;
+    /* ilk 5 sağ sonraki alta shadow verdi fakat 10px opaklığını artırdı. */
+    box-shadow: blue 5px 5px 10px;
+    /* texti üstten ortaladı */
+    text-align: center;
+    /* line-height: 150px; */
+    float: left;
+    /* kutuların yanyana gelmesini sağladı */
+    margin: 10px 3px 5px 3px;
+    /* marginde kutuları birbirinde 10 px ayırdı. 
+    margin birde dışarıdan boşluk koyar*/
+    padding: 25px;
+    /* padding ise içeriden 25 px boşluk koyar */
+    border: #000 solid 2px;
+    /* contentimizin tam sınırına bir kalınlık koyuyor */
+    box-sizing: border-box;
+    /* bu özellik yukarıda girdiğimiz değeri sonuç olarak kabul ederek
+    divimizi ona göre şekillendirecek */
+}
+
+
+.kutu{
+    color:white;
+    background-color: red;
+    width: 200px;
+    height: 150px;
+}
+
+/* değişen bişi olmaz çünkü divdekilerle aynı girdik */
+
+#kutu1{
+    color:white;
+    background-color: red;
+    width: 200px;
+    height: 150px;
+    text-shadow: black 3px 3px 2px;
+}
+#kutu2{
+    transform: rotate(-45deg);
+}
+/* burada divimizi nasıl şekillendirebileceğimizi gördük */

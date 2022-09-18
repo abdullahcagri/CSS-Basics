@@ -1,0 +1,19 @@
+#personel{
+    border-collapse: collapse;
+    width: 100%;
+    background-color: #ecf0f1;
+    font-weight: bold;
+}
+#personel td,#personel th{
+    padding: 8px;
+}
+#personel th {
+    background:#3498db;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    color: #fff;
+}
+#personel td {
+    color: #2c3e50;
+}

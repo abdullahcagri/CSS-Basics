@@ -1,0 +1,14 @@
+
+.box-1{
+    background-color: burlywood;
+}
+.box-2{
+    height: 360px;
+    width: 640px;
+    background-image: url("/image/indir.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+p{
+    background-color: blueviolet;
+}
